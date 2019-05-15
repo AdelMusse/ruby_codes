@@ -48,7 +48,11 @@ elsif age.odd?
     puts "your age is an odd number"
 end
 
+#************ displaying the year of birth asuming that we are in 2019************#
+
 puts "your birthday year is #{date_of_birth = 2019-age}"
+
+# ****checking is his birth year is a leap year or not******#
 
 case
 when date_of_birth % 4 == 0
