@@ -32,11 +32,12 @@ puts "addition result #{addition(num1, num2)}"
 puts "subtraction result #{subtraction(num1, num2)}"
 puts "multiplication result #{multiplication(num1, num2)}"
 puts "division result #{division(num1, num2)}"
-
-if reminder(num1,num2) != 0 
-puts "reminder is #{reminder(num1, num2)}"
-else
-    puts "this number is evenly devided"
-end
+  
+# if reminder(num1,num2) != 0 
+#   puts "reminder is #{reminder(num1, num2)}"                                                              #******these tow codes are same*************
+# else
+#     puts "this number is evenly devided"
+# end
+puts reminder(num1,num2) != 0 ? "reminder is #{reminder(num1,num2)}" : "this number is evenly devided"
 
 
